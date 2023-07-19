@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <title>color flipper||simple</title>
+        <link rel="stylesheet" href="pub/color.css">
+        <script type="text/javascript" src="main.js" defer></script>
+    </head>
+    <body id="clr" class="w-[100%] h-[100%] flex flex-col justify-start items-center gap-y-[270px] bg-[#F1f5f8]">
+        <div class="h-[50px] w-[100%] bg-white flex flex-row justify-center items-center gap-x-[350px] drop-shadow-[0px_0px_7px_grey]">
+            <p class="text-[20px] text-[#49a6e9] font-semibold tracking-[5px]">Color Flipper</p>
+            <div class="w-fit flex flex-row justify-center items-center gap-x-[10px] text-[18px] text-black font-normal tracking-[3px]">
+                <p class="hover:text-[#49a6e9]">Simple</p>
+                <p id="hex" class="hover:text-[#49a6e9]">Hex</p>
+            </div>
+        </div>
+        <div class="h-fit w-fit flex flex-col justify-start items-center gap-y-[50px]">
+            <div class="bg-[#222222] text-[white] text-[45px] w-fit h-fit flex flex-row gap-x-[3px] pl-[10px] pr-[10px] rounded-[10px] font-semibold tracking-[4px]">
+                <h1>Background Color:</h1>
+                <p id="code" class="text-[#49a6e9]">#F1f5f8</p>
+            </div>
+            <input id="clck" class="w-fit h-fit border border-black text-[17px] tracking-[3px] font-semibold rounded-[5px] p-[10px] hover:bg-black hover:text-[white]" type="button" value="CLICK ME">
+        </div>
+    </body>
+</html>
